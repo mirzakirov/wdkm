@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo {
+    height: 30px;
+  }
+  
+  .language {
+    font-weight: bold;
+  }
+  
+  .login-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-small {
+    height: 30px;
+  }
+  
+  .offer-link {
+    color: #f15300;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  h1 {
+    color: #001170;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .toggle button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .toggle .active {
+    background-color: white;
+    border: 2px solid #e0e0e0;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .password-container {
+    position: relative;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    cursor: pointer;
+  }
+  
+  .qr-login {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .submit-btn {
+    background-color: #ff7a38;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+  }
